@@ -1,5 +1,5 @@
 ---
-title: Ibug Fpage
+title: iBUG FP-Age
 emoji: 🏢
 colorFrom: gray
 colorTo: yellow
