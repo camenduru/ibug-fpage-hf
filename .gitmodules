@@ -1,0 +1,12 @@
+[submodule "face_detection"]
+	path = face_detection
+	url = https://github.com/ibug-group/face_detection
+[submodule "roi_tanh_warping"]
+	path = roi_tanh_warping
+	url = https://github.com/ibug-group/roi_tanh_warping
+[submodule "face_parsing"]
+	path = face_parsing
+	url = https://github.com/hhj1897/face_parsing
+[submodule "fpage"]
+	path = fpage
+	url = https://github.com/ibug-group/fpage
