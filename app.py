@@ -43,7 +43,6 @@ def parse_args() -> argparse.Namespace:
                         dest='enable_queue',
                         action='store_false')
     parser.add_argument('--allow-flagging', type=str, default='never')
-    parser.add_argument('--allow-screenshot', action='store_true')
     return parser.parse_args()
 
 
@@ -160,7 +159,6 @@ def main():
         description=DESCRIPTION,
         article=ARTICLE,
         theme=args.theme,
-        allow_screenshot=args.allow_screenshot,
         allow_flagging=args.allow_flagging,
         live=args.live,
     ).launch(
