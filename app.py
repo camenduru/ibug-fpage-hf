@@ -24,9 +24,8 @@ from ibug.age_estimation import AgeEstimator
 from ibug.face_detection import RetinaFacePredictor
 from ibug.face_parsing.utils import label_colormap
 
-REPO_URL = 'https://github.com/ibug-group/fpage'
 TITLE = 'ibug-group/fpage'
-DESCRIPTION = f'This is a demo for {REPO_URL}.'
+DESCRIPTION = 'This is an unofficial demo for https://github.com/ibug-group/fpage.'
 ARTICLE = None
 
 TOKEN = os.environ['TOKEN']
