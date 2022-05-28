@@ -26,7 +26,7 @@ from ibug.face_parsing.utils import label_colormap
 
 TITLE = 'ibug-group/fpage'
 DESCRIPTION = 'This is an unofficial demo for https://github.com/ibug-group/fpage.'
-ARTICLE = None
+ARTICLE = '<center><img src="https://visitor-badge.glitch.me/badge?page_id=hysts.ibug-fpage" alt="visitor badge"/></center>'
 
 TOKEN = os.environ['TOKEN']
 
